@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB8D1BF1BAE610F002D0DDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D1BE1BAE610F002D0DDB /* AppDelegate.swift */; };
+		DDB8D1C11BAE610F002D0DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB8D1C01BAE610F002D0DDB /* Assets.xcassets */; };
+		DDB8D1C41BAE610F002D0DDB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDB8D1C21BAE610F002D0DDB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDB8D1BB1BAE610F002D0DDB /* BrightnessMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightnessMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB8D1BE1BAE610F002D0DDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDB8D1C01BAE610F002D0DDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB8D1C31BAE610F002D0DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DDB8D1C51BAE610F002D0DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB8D1B81BAE610F002D0DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB8D1B21BAE610F002D0DDB = {
+			isa = PBXGroup;
+			children = (
+				DDB8D1BD1BAE610F002D0DDB /* BrightnessMenu */,
+				DDB8D1BC1BAE610F002D0DDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB8D1BC1BAE610F002D0DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8D1BB1BAE610F002D0DDB /* BrightnessMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB8D1BD1BAE610F002D0DDB /* BrightnessMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8D1BE1BAE610F002D0DDB /* AppDelegate.swift */,
+				DDB8D1C01BAE610F002D0DDB /* Assets.xcassets */,
+				DDB8D1C21BAE610F002D0DDB /* MainMenu.xib */,
+				DDB8D1C51BAE610F002D0DDB /* Info.plist */,
+			);
+			path = BrightnessMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB8D1BA1BAE610F002D0DDB /* BrightnessMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB8D1C81BAE610F002D0DDB /* Build configuration list for PBXNativeTarget "BrightnessMenu" */;
+			buildPhases = (
+				DDB8D1B71BAE610F002D0DDB /* Sources */,
+				DDB8D1B81BAE610F002D0DDB /* Frameworks */,
+				DDB8D1B91BAE610F002D0DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrightnessMenu;
+			productName = MenuSlider;
+			productReference = DDB8D1BB1BAE610F002D0DDB /* BrightnessMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB8D1B31BAE610F002D0DDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kevin Spears";
+				TargetAttributes = {
+					DDB8D1BA1BAE610F002D0DDB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = DDB8D1B61BAE610F002D0DDB /* Build configuration list for PBXProject "BrightnessMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB8D1B21BAE610F002D0DDB;
+			productRefGroup = DDB8D1BC1BAE610F002D0DDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB8D1BA1BAE610F002D0DDB /* BrightnessMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB8D1B91BAE610F002D0DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB8D1C11BAE610F002D0DDB /* Assets.xcassets in Resources */,
+				DDB8D1C41BAE610F002D0DDB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB8D1B71BAE610F002D0DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB8D1BF1BAE610F002D0DDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDB8D1C21BAE610F002D0DDB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB8D1C31BAE610F002D0DDB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB8D1C61BAE610F002D0DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDB8D1C71BAE610F002D0DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDB8D1C91BAE610F002D0DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/BrightnessMenu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinspears.BrightnessMenu;
+				PRODUCT_NAME = BrightnessMenu;
+			};
+			name = Debug;
+		};
+		DDB8D1CA1BAE610F002D0DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/BrightnessMenu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinspears.BrightnessMenu;
+				PRODUCT_NAME = BrightnessMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB8D1B61BAE610F002D0DDB /* Build configuration list for PBXProject "BrightnessMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB8D1C61BAE610F002D0DDB /* Debug */,
+				DDB8D1C71BAE610F002D0DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB8D1C81BAE610F002D0DDB /* Build configuration list for PBXNativeTarget "BrightnessMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB8D1C91BAE610F002D0DDB /* Debug */,
+				DDB8D1CA1BAE610F002D0DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB8D1B31BAE610F002D0DDB /* Project object */;
+}
