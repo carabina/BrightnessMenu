@@ -26,7 +26,7 @@
             <point key="canvasLocation" x="-121.5" y="101.5"/>
         </menu>
         <menuItem isSeparatorItem="YES" id="Dh0-a5-SIT"/>
-        <menuItem title="Quit" id="DFw-HG-3Jn" userLabel="Quit">
+        <menuItem offStateImage="Quit" id="DFw-HG-3Jn" userLabel="Quit">
             <modifierMask key="keyEquivalentModifierMask"/>
             <connections>
                 <action selector="quitClicked:" target="Voe-Tx-rLC" id="hS3-F3-fpr"/>
@@ -35,17 +35,23 @@
         <slider horizontalHuggingPriority="750" id="MCZ-JD-dJu">
             <rect key="frame" x="0.0" y="0.0" width="21" height="96"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-            <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="right" sliderType="linear" id="cZ8-iD-m1O"/>
-            <connections>
-                <action selector="brightnessSlider:" target="Voe-Tx-rLC" id="nk6-L0-ja6"/>
-            </connections>
+            <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="right" sliderType="linear" id="cZ8-iD-m1O">
+                <connections>
+                    <action selector="brightnessSlider:" target="Voe-Tx-rLC" id="4DG-id-ZTo"/>
+                </connections>
+            </sliderCell>
             <point key="canvasLocation" x="-120.5" y="190.5"/>
         </slider>
-        <menuItem title="Lock" id="JX3-P1-L2T" userLabel="Lock">
+        <menuItem onStateImage="Locked" offStateImage="Unlocked" id="JX3-P1-L2T" userLabel="Lock">
             <modifierMask key="keyEquivalentModifierMask"/>
             <connections>
                 <action selector="lockClicked:" target="Voe-Tx-rLC" id="Twf-SC-cYh"/>
             </connections>
         </menuItem>
     </objects>
+    <resources>
+        <image name="Locked" width="9.6000003814697266" height="9.6000003814697266"/>
+        <image name="Quit" width="16" height="16"/>
+        <image name="Unlocked" width="16" height="16"/>
+    </resources>
 </document>
