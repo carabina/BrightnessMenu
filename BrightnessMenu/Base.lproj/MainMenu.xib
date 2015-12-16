@@ -11,7 +11,7 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="MenuSlider" customModuleProvider="target">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="BrightnessMenu" customModuleProvider="target">
             <connections>
                 <outlet property="brightnessSlider" destination="cZ8-iD-m1O" id="R7h-t4-Qc4"/>
                 <outlet property="lockMenuItem" destination="JX3-P1-L2T" id="NRD-0R-0gl"/>
@@ -35,7 +35,7 @@
         <slider horizontalHuggingPriority="750" id="MCZ-JD-dJu">
             <rect key="frame" x="0.0" y="0.0" width="21" height="96"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-            <sliderCell key="cell" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="right" sliderType="linear" id="cZ8-iD-m1O"/>
+            <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="right" sliderType="linear" id="cZ8-iD-m1O"/>
             <connections>
                 <action selector="brightnessSlider:" target="Voe-Tx-rLC" id="nk6-L0-ja6"/>
             </connections>
