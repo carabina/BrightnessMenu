@@ -40,6 +40,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             sender.state = NSOffState
         } else {
             sender.state = NSOnState
+            setBrightnessLevel(getBrightnessLevel())
         }
     }
     
@@ -66,6 +67,27 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 }
             }
         }
+    }
+    
+    func getBrightnessLevel() -> float_t {
+        var iterator: io_iterator_t = 0
+        let screens = NSScreen.screens()
+        let screenService = IOServiceGetMatchingServices(kIOMasterPortDefault, IOServiceMatching("IODisplayConnect"), &iterator)
+        
+        var brightness: float_t = 1
+        if screenService == kIOReturnSuccess {
+            
+            var service: io_object_t = 1
+            
+            for screen in screens! {
+                service = IOIteratorNext(iterator)
+                
+                if screen == NSScreen.mainScreen() {
+                    IODisplayGetFloatParameter(service, 0, kIODisplayBrightnessKey, &brightness)
+                }
+            }
+        }
+        return brightness
     }
 }
 
